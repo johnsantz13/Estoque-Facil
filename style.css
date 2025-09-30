@@ -1,4 +1,10 @@
-
+:root{
+    --azul-escuro:#20364D;
+    --bege:#E5D4D4;
+    --laranja-fraco:#E67F45;
+    --cinza:#888888;
+    --branco:#fff;
+}
 
 *{
     margin: 0px;
