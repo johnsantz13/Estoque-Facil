@@ -2,8 +2,10 @@
     --azul-escuro: #20364D;
     --bege: #E5D4D4;
     --laranja-fraco: #E67F45;
+    --laranja-neon:#FD6506;
     --cinza: #888888;
     --branco: #fff;
+    --branco-amarelado: #FFF1E3;
 }
 
 * {
@@ -87,6 +89,7 @@ ul li.ativo {
     transition: .3s;
 }
 
+/*tamanho do icone do home*/
 .icon {
     font-size: 20pt;
 }
@@ -98,7 +101,7 @@ header {
 
 .cab {
     text-align: center;
-    background-color: var(--laranja-fraco);
+    background-color: var(--laranja-neon);
     color: var(--azul-escuro);
     padding-bottom: 10px;
 }
@@ -109,40 +112,115 @@ img {
     height: 672px;
 }
 
+/*Cabeçalho do cadastro*/
 .cab2 {
     display: flex;
     flex-direction: column;
     margin-top: 20px;
     margin-left: 600px;
     text-align: center;
-    background-color: var(--laranja-fraco);
+    background-color: var(--laranja-neon);
     color: var(--branco);
     padding: 10px;
     border-radius: 10px;
     width: 350px;
 }
 
-.cab2 img{
+/*imagem do cabeçalho do cadastro*/
+.cab2 img {
     width: 25px;
     height: 25px;
     display: flex;
 }
 
-.txt{
+/*texto do cabeçalho*/
+.txt {
     text-align: center;
     color: #1F364B;
 }
 
-.main-cadastro{
-    margin-left: 70px;
+/*conteudo cadastro*/
+.main-cadastro {
+    margin-left: 70px ;
 }
 
-.box1{
+.box1 {
     margin: auto;
-    background-color: var(--laranja-fraco);
+    background-color: var(--laranja-neon);
     padding: 15px;
     width: 80%;
     border-radius: 10px;
     color: var(--branco);
 }
 
+.formulario {
+    padding-top: 15px;
+    margin-left: 150px;
+    background-color: var(--branco-amarelado);
+    width: 1165px;
+    border-radius: 0px 0px 20px 20px;
+    padding-bottom: 20px;
+}
+
+.formulario input {
+    margin-left: 10%;
+    width: 400px;
+    border-radius: 15px;
+    border: 1px solid var(--azul-escuro);
+    padding: 5px;
+}
+
+#produtos{
+ margin-left: 10%;
+}
+
+#vendas {
+    margin-left: 50%;
+    position: relative;
+    top: -46px;
+}
+
+textarea{
+    width: 75%;
+    height: 100px;
+    margin-left: 10%;
+    border-radius: 15px;
+}
+
+.descricao{
+    margin-left: 10%;
+}
+
+.formulario p{
+    margin-left: 10%;
+}
+
+/*Area de receita*/
+.section-receita{
+    margin-top: 30px;
+    margin-left:10% ;
+    background-color: var(--laranja-neon);
+    padding: 10px;
+    width: 80%;
+    border-radius: 10px;
+    color: var(--branco);
+}
+.section-receita h3{
+    margin-top: 10px;
+}
+.section-receita input{
+    margin-left:80% ;
+    position: relative;
+    top: -20px;
+    padding: 5px;
+    border: none;
+    border-radius: 15px;
+}
+.receituario{
+    padding-top: 15px;
+    margin-left: 150px;
+    background-color: var(--branco-amarelado);
+    width: 1165px;
+    border-radius: 0px 0px 20px 20px;
+    padding-bottom: 7%;
+}
