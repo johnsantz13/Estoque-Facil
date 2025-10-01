@@ -79,9 +79,9 @@
     <!--Cabeçalho-->
     <header>
         <div class="cab2">
-            <img width="50" height="50" src="https://img.icons8.com/ios/50/chef-hat.png" alt="chef-hat"/>
+            <img width="50" height="50" src="https://img.icons8.com/ios/50/chef-hat.png" alt="chef-hat" />
             <h2>Cadastro de Ingredientes</h2>
-            
+
         </div>
         <p class="txt">Crie fichas técnicas com receituários detalhados para seus produtos</p>
     </header>
@@ -91,13 +91,29 @@
                 <h3>Informações do produto</h1>
             </div>
             <div class="formulario">
+                <form method="post">
+                    <label for="produto">Nome do Produto*</label>
+                    <br>
+                    <input type="text" name="produto" id="produto" placeholder="Ex: Hamburger Artesanal">
+                    <label for="vendas">Preço de Venda*</label>
+                    <input type="number" name="Vendas" id="vendas">
+                    <br><br>
+                    <label for="descricao">Descrição</label>
+                    <br>
+                    <textarea name="descricao" id="descricao"></textarea>
+                    <br><br>
+                </form>
+                <p>Adicionar imagem</p>
+                <div>
 
+                </div>
             </div>
             <div class="receituario">
 
             </div>
         </section>
     </main>
+    <script src="script.js"></script>
 </body>
 
 </html>

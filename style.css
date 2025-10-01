@@ -16,6 +16,7 @@
 body {
     width: 100vw;
     height: 100vh;
+    background-color: #E5D4D4;
 }
 
 nav {
@@ -144,3 +145,4 @@ img {
     border-radius: 10px;
     color: var(--branco);
 }
+
